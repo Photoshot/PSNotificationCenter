@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEB2E1671617494B0033AB91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB2E1661617494B0033AB91 /* Foundation.framework */; };
+		AEB2E16C1617494B0033AB91 /* Photoshot_Notification_Center.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEB2E16B1617494B0033AB91 /* Photoshot_Notification_Center.h */; };
+		AEB2E16E1617494B0033AB91 /* Photoshot_Notification_Center.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB2E16D1617494B0033AB91 /* Photoshot_Notification_Center.m */; };
+		AEB2E1761617494B0033AB91 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB2E1751617494B0033AB91 /* SenTestingKit.framework */; };
+		AEB2E1781617494B0033AB91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB2E1771617494B0033AB91 /* UIKit.framework */; };
+		AEB2E1791617494B0033AB91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB2E1661617494B0033AB91 /* Foundation.framework */; };
+		AEB2E17C1617494B0033AB91 /* libPhotoshot Notification Center.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB2E1631617494B0033AB91 /* libPhotoshot Notification Center.a */; };
+		AEB2E1821617494B0033AB91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEB2E1801617494B0033AB91 /* InfoPlist.strings */; };
+		AEB2E1851617494B0033AB91 /* Photoshot_Notification_CenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB2E1841617494B0033AB91 /* Photoshot_Notification_CenterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEB2E17A1617494B0033AB91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEB2E15A1617494B0033AB91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEB2E1621617494B0033AB91;
+			remoteInfo = "Photoshot Notification Center";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEB2E1611617494B0033AB91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				AEB2E16C1617494B0033AB91 /* Photoshot_Notification_Center.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AEB2E1631617494B0033AB91 /* libPhotoshot Notification Center.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPhotoshot Notification Center.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB2E1661617494B0033AB91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEB2E16A1617494B0033AB91 /* Photoshot Notification Center-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photoshot Notification Center-Prefix.pch"; sourceTree = "<group>"; };
+		AEB2E16B1617494B0033AB91 /* Photoshot_Notification_Center.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photoshot_Notification_Center.h; sourceTree = "<group>"; };
+		AEB2E16D1617494B0033AB91 /* Photoshot_Notification_Center.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photoshot_Notification_Center.m; sourceTree = "<group>"; };
+		AEB2E1741617494B0033AB91 /* Photoshot Notification CenterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photoshot Notification CenterTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB2E1751617494B0033AB91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AEB2E1771617494B0033AB91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AEB2E17F1617494B0033AB91 /* Photoshot Notification CenterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photoshot Notification CenterTests-Info.plist"; sourceTree = "<group>"; };
+		AEB2E1811617494B0033AB91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEB2E1831617494B0033AB91 /* Photoshot_Notification_CenterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photoshot_Notification_CenterTests.h; sourceTree = "<group>"; };
+		AEB2E1841617494B0033AB91 /* Photoshot_Notification_CenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photoshot_Notification_CenterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB2E1601617494B0033AB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB2E1671617494B0033AB91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB2E1701617494B0033AB91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB2E1761617494B0033AB91 /* SenTestingKit.framework in Frameworks */,
+				AEB2E1781617494B0033AB91 /* UIKit.framework in Frameworks */,
+				AEB2E1791617494B0033AB91 /* Foundation.framework in Frameworks */,
+				AEB2E17C1617494B0033AB91 /* libPhotoshot Notification Center.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEB2E1581617494B0033AB91 = {
+			isa = PBXGroup;
+			children = (
+				AEB2E1681617494B0033AB91 /* Photoshot Notification Center */,
+				AEB2E17D1617494B0033AB91 /* Photoshot Notification CenterTests */,
+				AEB2E1651617494B0033AB91 /* Frameworks */,
+				AEB2E1641617494B0033AB91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB2E1641617494B0033AB91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB2E1631617494B0033AB91 /* libPhotoshot Notification Center.a */,
+				AEB2E1741617494B0033AB91 /* Photoshot Notification CenterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB2E1651617494B0033AB91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEB2E1661617494B0033AB91 /* Foundation.framework */,
+				AEB2E1751617494B0033AB91 /* SenTestingKit.framework */,
+				AEB2E1771617494B0033AB91 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEB2E1681617494B0033AB91 /* Photoshot Notification Center */ = {
+			isa = PBXGroup;
+			children = (
+				AEB2E16B1617494B0033AB91 /* Photoshot_Notification_Center.h */,
+				AEB2E16D1617494B0033AB91 /* Photoshot_Notification_Center.m */,
+				AEB2E1691617494B0033AB91 /* Supporting Files */,
+			);
+			path = "Photoshot Notification Center";
+			sourceTree = "<group>";
+		};
+		AEB2E1691617494B0033AB91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEB2E16A1617494B0033AB91 /* Photoshot Notification Center-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEB2E17D1617494B0033AB91 /* Photoshot Notification CenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEB2E1831617494B0033AB91 /* Photoshot_Notification_CenterTests.h */,
+				AEB2E1841617494B0033AB91 /* Photoshot_Notification_CenterTests.m */,
+				AEB2E17E1617494B0033AB91 /* Supporting Files */,
+			);
+			path = "Photoshot Notification CenterTests";
+			sourceTree = "<group>";
+		};
+		AEB2E17E1617494B0033AB91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEB2E17F1617494B0033AB91 /* Photoshot Notification CenterTests-Info.plist */,
+				AEB2E1801617494B0033AB91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB2E1621617494B0033AB91 /* Photoshot Notification Center */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB2E1881617494B0033AB91 /* Build configuration list for PBXNativeTarget "Photoshot Notification Center" */;
+			buildPhases = (
+				AEB2E15F1617494B0033AB91 /* Sources */,
+				AEB2E1601617494B0033AB91 /* Frameworks */,
+				AEB2E1611617494B0033AB91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photoshot Notification Center";
+			productName = "Photoshot Notification Center";
+			productReference = AEB2E1631617494B0033AB91 /* libPhotoshot Notification Center.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AEB2E1731617494B0033AB91 /* Photoshot Notification CenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB2E18B1617494B0033AB91 /* Build configuration list for PBXNativeTarget "Photoshot Notification CenterTests" */;
+			buildPhases = (
+				AEB2E16F1617494B0033AB91 /* Sources */,
+				AEB2E1701617494B0033AB91 /* Frameworks */,
+				AEB2E1711617494B0033AB91 /* Resources */,
+				AEB2E1721617494B0033AB91 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEB2E17B1617494B0033AB91 /* PBXTargetDependency */,
+			);
+			name = "Photoshot Notification CenterTests";
+			productName = "Photoshot Notification CenterTests";
+			productReference = AEB2E1741617494B0033AB91 /* Photoshot Notification CenterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB2E15A1617494B0033AB91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Photoshot;
+			};
+			buildConfigurationList = AEB2E15D1617494B0033AB91 /* Build configuration list for PBXProject "Photoshot Notification Center" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEB2E1581617494B0033AB91;
+			productRefGroup = AEB2E1641617494B0033AB91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB2E1621617494B0033AB91 /* Photoshot Notification Center */,
+				AEB2E1731617494B0033AB91 /* Photoshot Notification CenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB2E1711617494B0033AB91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB2E1821617494B0033AB91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEB2E1721617494B0033AB91 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB2E15F1617494B0033AB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB2E16E1617494B0033AB91 /* Photoshot_Notification_Center.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB2E16F1617494B0033AB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB2E1851617494B0033AB91 /* Photoshot_Notification_CenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEB2E17B1617494B0033AB91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEB2E1621617494B0033AB91 /* Photoshot Notification Center */;
+			targetProxy = AEB2E17A1617494B0033AB91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEB2E1801617494B0033AB91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB2E1811617494B0033AB91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEB2E1861617494B0033AB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEB2E1871617494B0033AB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB2E1891617494B0033AB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Photoshot_Notification_Center.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photoshot Notification Center/Photoshot Notification Center-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AEB2E18A1617494B0033AB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Photoshot_Notification_Center.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photoshot Notification Center/Photoshot Notification Center-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AEB2E18C1617494B0033AB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photoshot Notification Center/Photoshot Notification Center-Prefix.pch";
+				INFOPLIST_FILE = "Photoshot Notification CenterTests/Photoshot Notification CenterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AEB2E18D1617494B0033AB91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photoshot Notification Center/Photoshot Notification Center-Prefix.pch";
+				INFOPLIST_FILE = "Photoshot Notification CenterTests/Photoshot Notification CenterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB2E15D1617494B0033AB91 /* Build configuration list for PBXProject "Photoshot Notification Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB2E1861617494B0033AB91 /* Debug */,
+				AEB2E1871617494B0033AB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB2E1881617494B0033AB91 /* Build configuration list for PBXNativeTarget "Photoshot Notification Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB2E1891617494B0033AB91 /* Debug */,
+				AEB2E18A1617494B0033AB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEB2E18B1617494B0033AB91 /* Build configuration list for PBXNativeTarget "Photoshot Notification CenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB2E18C1617494B0033AB91 /* Debug */,
+				AEB2E18D1617494B0033AB91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB2E15A1617494B0033AB91 /* Project object */;
+}

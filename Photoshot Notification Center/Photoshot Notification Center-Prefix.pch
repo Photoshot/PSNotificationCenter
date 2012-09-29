@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Photoshot Notification Center' target in the 'Photoshot Notification Center' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
