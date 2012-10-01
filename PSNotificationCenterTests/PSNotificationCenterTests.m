@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Photoshot. All rights reserved.
 //
 
-#import "Photoshot_Notification_CenterTests.h"
+#import "PSNotificationCenterTests.h"
 
-@implementation Photoshot_Notification_CenterTests
+@implementation PSNotificationCenterTests
 
 - (void)setUp
 {

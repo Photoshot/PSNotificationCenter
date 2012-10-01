@@ -8,6 +8,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface Photoshot_Notification_CenterTests : SenTestCase
+@interface PSNotificationCenterTests : SenTestCase
 
 @end
